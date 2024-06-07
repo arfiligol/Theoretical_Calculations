@@ -8,7 +8,7 @@ EJ = 17
 EC = 1 
 P = -1  # For simplicity, consider P = -1 (odd parity)
 omega_r = 9.202 * 2 * np.pi * giga  # Resonator frequency in rad/s
-g = 0.1 * 2 * np.pi* giga  # Coupling strength in Hz, adjust as needed
+g = 0.01 * 2 * np.pi* giga  # Coupling strength in Hz, adjust as needed
 num_levels_to_observe = 5  # Number of energy levels to observe
 
 # Define the number of states (N+1 states, from 0 to N)
